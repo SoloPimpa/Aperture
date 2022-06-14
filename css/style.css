@@ -71,13 +71,17 @@ header nav ul li a:hover{
     width: 24px;
     height: 24px;
     background: none;
+    border: none;
     position: relative;
     top:0;
-    left: 0;
+    left: -15px;
     display: none;
 }
 .white-color{
     color: white;
+}
+.fa-24x{
+    font-size: 24px;
 }
 
 /*main banner section*/

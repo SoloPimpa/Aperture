@@ -1,0 +1,94 @@
+@media only screen and (max-width: 767px) {
+    header .container nav{
+        display: none;
+    }
+    .hamburger{
+        display: inline-block;
+    }
+    .main_banner .container h3{
+        font-size: 11px;
+    }
+    .main_banner .container p{
+        font-size: 11px;
+    }
+    .main_banner .container h1{
+        font-size: 40px;
+        margin: 0;
+    }
+   .components li{
+       font-size: 11px;
+   }
+    .clients .d-flex{
+        flex-wrap: wrap;
+    }
+    .clients .past_clients h3{
+        font-size: 35px;
+    }
+    .clients .past_clients p{
+        font-size: 18px;
+    }
+    .need_help .container h3{
+        font-size: 35px;
+    }
+    .need_help .container p{
+        font-size: 18px;
+    }
+    .need_help .container a{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .main_banner .container h3{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .main_banner .container p{
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .main_banner .container h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .clients .past_clients h3{
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .clients .past_clients p{
+        font-size: 14px;
+    }
+    .need_help .container h3{
+        font-size: 30px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+    .need_help .container p{
+        font-size: 14px;
+    }
+    .need_help .container a{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .components li {
+        font-size: 10px;
+    }
+
+    .clients .past_clients .d-flex {
+        flex-direction: column;
+    }
+
+    .clients .past_clients .d-flex a {
+        margin-bottom: 20px;
+    }
+    .need_help .container h3 {
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+    }
+    .need_help .container a{
+        font-size: 10px;
+    }
+
+}

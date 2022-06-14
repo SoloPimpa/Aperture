@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     src: url('../fonts/Poppins-Regular.eot');
     src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Poppins-Regular.woff2') format('woff2'),
@@ -37,7 +37,7 @@ header nav ul li{
 }
 header nav a{
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -58,7 +58,7 @@ header nav ul li:last-of-type a{
     padding: 11px 20px;
     background-color: #FFFFFF;
     border-radius: 14px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -67,6 +67,19 @@ header nav ul li:last-of-type a{
 header nav ul li a:hover{
     transform: scale(1.1);
 }
+.hamburger{
+    width: 24px;
+    height: 24px;
+    background: none;
+    position: relative;
+    top:0;
+    left: 0;
+    display: none;
+}
+.white-color{
+    color: white;
+}
+
 /*main banner section*/
 .main_banner{
     background-image: url("../images/background.jpg");
@@ -84,7 +97,7 @@ header nav ul li a:hover{
     text-align: center;
 }
 .main_banner h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -94,7 +107,7 @@ header nav ul li a:hover{
     color: #C0C0C0;
 }
 .main_banner h1{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -103,7 +116,7 @@ header nav ul li a:hover{
     margin: 0 0 18px 0;
 }
 .main_banner p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -119,7 +132,7 @@ header nav ul li a:hover{
 }
 .components li{
     margin-left: 16px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -161,8 +174,6 @@ header nav ul li a:hover{
 }
 .clients{
     background-color: black;
-    background-size: cover;
-    height: 74vh;
     padding-top: 113px;
     padding-bottom: 100px;
     box-sizing: border-box;
@@ -173,7 +184,7 @@ header nav ul li a:hover{
     text-align: center;
 }
 .clients .past_clients h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -183,7 +194,7 @@ header nav ul li a:hover{
     margin-bottom: 15px;
 }
 .clients .past_clients p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -217,8 +228,6 @@ header nav ul li a:hover{
 }
 .need_help{
     background-color: black;
-    background-size: cover;
-    height: 74vh;
     padding-top: 113px;
     padding-bottom: 108px;
     box-sizing: border-box;
@@ -229,7 +238,7 @@ header nav ul li a:hover{
     text-align: center;
 }
 .need_help h3{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -238,7 +247,7 @@ header nav ul li a:hover{
     margin-bottom: 15px;
 }
 .need_help p{
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -251,7 +260,7 @@ header nav ul li a:hover{
     background-color: #FFFFFF;
     border-radius: 14px;
     text-decoration: none;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -273,10 +282,6 @@ header nav ul li a:hover{
     height: 32px;
     margin-right: 6px;
 }
-
-
-
-
 
 
 

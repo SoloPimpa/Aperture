@@ -21,6 +21,9 @@
     .clients .d-flex{
         flex-wrap: wrap;
     }
+    .clients .d-flex a{
+        margin-right: 15px;
+    }
     .clients .past_clients h3{
         font-size: 35px;
     }

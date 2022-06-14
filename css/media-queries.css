@@ -72,6 +72,14 @@
         font-size: 12px;
     }
 }
+@media only screen and (max-width: 360px){
+    .clients .past_clients .d-flex {
+        flex-direction: column;
+    }
+    .clients .past_clients .d-flex a {
+        margin-bottom: 20px;
+    }
+}
 @media only screen and (max-width: 320px) {
     .components li {
         font-size: 10px;

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="adaptation_hamburger">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
-    </list>
+    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="adaptation_hamburger" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,7 @@
       <workItem from="1655132458336" duration="51000" />
       <workItem from="1655138375835" duration="3008000" />
       <workItem from="1655144364761" duration="29000" />
-      <workItem from="1655220235027" duration="15258000" />
+      <workItem from="1655220235027" duration="15318000" />
     </task>
     <task id="LOCAL-00001" summary="adaptation">
       <created>1655233711679</created>
@@ -127,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655233935256</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adaptation_hamburger">
+      <created>1655235694786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655235694786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

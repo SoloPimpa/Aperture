@@ -1,4 +1,10 @@
 @media only screen and (max-width: 767px) {
+    .main_banner,.japan,.costa_rica,.nepal {
+        height: 60vh;
+    }
+    .clients,.need_help{
+        height: 100%;
+    }
     header .container nav{
         display: none;
     }
@@ -10,6 +16,7 @@
     }
     .main_banner .container p{
         font-size: 11px;
+        margin: 0 10px;
     }
     .main_banner .container h1{
         font-size: 40px;
@@ -40,7 +47,15 @@
         font-size: 14px;
     }
 }
+
 @media only screen and (max-width: 420px) {
+    .main_banner,.japan,.costa_rica,.nepal {
+        height: 50vh;
+    }
+    .clients,.need_help{
+        height: 100%;
+    }
+
     .main_banner .container h3{
         font-size: 8px;
         line-height: 13px;
@@ -71,20 +86,73 @@
     .need_help .container a{
         font-size: 12px;
     }
+    .components li:before{
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        top:3px;
+    }
+    .components li:nth-child(3):before{
+        background-size: 20px;
+        width: 20px;
+    }
+    .components li:last-of-type:before {
+        background-size: 6px;
+        width: 6px;
+    }
 }
 @media only screen and (max-width: 360px){
+    .main_banner,.japan,.costa_rica,.nepal {
+        height: 50vh;
+    }
+    .clients,.need_help{
+        height: 100%;
+    }
     .clients .past_clients .d-flex {
         flex-direction: column;
     }
     .clients .past_clients .d-flex a {
         margin-bottom: 20px;
     }
+    .components li:before{
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        top:3px;
+    }
+    .components li:nth-child(3):before{
+        background-size: 20px;
+        width: 20px;
+    }
+    .components li:last-of-type:before{
+        background-size: 6px;
+        width: 6px;
+    }
 }
 @media only screen and (max-width: 320px) {
-    .components li {
+    .main_banner,.japan,.costa_rica,.nepal {
+        height: 50vh;
+    }
+    .clients,.need_help{
+        height: 100%;
+    }
+    .components li{
         font-size: 10px;
     }
-
+    .components li:before{
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        top:3px;
+    }
+    .components li:nth-child(3):before{
+        background-size: 20px;
+        width: 20px;
+    }
+    .components li:last-of-type:before{
+        background-size: 6px;
+        width: 6px;
+    }
     .clients .past_clients .d-flex {
         flex-direction: column;
     }

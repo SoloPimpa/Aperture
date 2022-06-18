@@ -1,15 +1,32 @@
+@media only screen and (max-width: 1200px){
+    header{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
+        background-size: cover;
+        background-position: center;
+    }
+    header .container nav a {
+        font-size: 13px;
+    }
+    header nav ul li:first-of-type a{
+        font-size: 12px;
+    }
+    header nav ul li:last-of-type a{
+        font-size: 14px;
+    }
+}
 @media only screen and (max-width: 767px) {
-    .main_banner,.japan,.costa_rica,.nepal {
-        height: 60vh;
-    }
-    .clients,.need_help{
-        height: 100%;
-    }
     header .container nav{
         display: none;
     }
-    .hamburger{
+    .hamburger-menu{
         display: inline-block;
+        box-sizing: border-box;
+
     }
     .main_banner .container h3{
         font-size: 11px;
@@ -49,13 +66,6 @@
 }
 
 @media only screen and (max-width: 420px) {
-    .main_banner,.japan,.costa_rica,.nepal {
-        height: 50vh;
-    }
-    .clients,.need_help{
-        height: 100%;
-    }
-
     .main_banner .container h3{
         font-size: 8px;
         line-height: 13px;
@@ -79,6 +89,8 @@
         font-size: 30px;
         margin-bottom: 5px;
         box-sizing: border-box;
+        margin-right: 5px;
+        margin-left: 5px;
     }
     .need_help .container p{
         font-size: 14px;
@@ -101,12 +113,15 @@
         width: 6px;
     }
 }
-@media only screen and (max-width: 360px){
-    .main_banner,.japan,.costa_rica,.nepal {
-        height: 50vh;
+@media only screen and (max-width: 414px) {
+    .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
+        background-size: cover;
     }
-    .clients,.need_help{
-        height: 100%;
+}
+@media only screen and (max-width: 360px){
+    .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
+        background-size: cover;
+        background-position: center;
     }
     .clients .past_clients .d-flex {
         flex-direction: column;
@@ -130,12 +145,6 @@
     }
 }
 @media only screen and (max-width: 320px) {
-    .main_banner,.japan,.costa_rica,.nepal {
-        height: 50vh;
-    }
-    .clients,.need_help{
-        height: 100%;
-    }
     .components li{
         font-size: 10px;
     }
@@ -144,6 +153,7 @@
         width: 10px;
         height: 10px;
         top:3px;
+
     }
     .components li:nth-child(3):before{
         background-size: 20px;
@@ -169,5 +179,4 @@
     .need_help .container a{
         font-size: 10px;
     }
-
 }

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="adaptation_hamburger">
+    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="section_size">
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -20,6 +27,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Aperture",
+    "last_opened_file_path": "D:/Practic",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -49,6 +57,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Aperture\js" />
+      <recent name="D:\Aperture\css" />
       <recent name="D:\Aperture\fonts" />
     </key>
   </component>
@@ -115,7 +125,13 @@
       <workItem from="1655144364761" duration="29000" />
       <workItem from="1655220235027" duration="15318000" />
       <workItem from="1655235809780" duration="642000" />
-      <workItem from="1655315976583" duration="6771000" />
+      <workItem from="1655315976583" duration="7413000" />
+      <workItem from="1655397278227" duration="8884000" />
+      <workItem from="1655406602771" duration="410000" />
+      <workItem from="1655452038912" duration="3924000" />
+      <workItem from="1655492697021" duration="617000" />
+      <workItem from="1655502964495" duration="247000" />
+      <workItem from="1655537688661" duration="7996000" />
     </task>
     <task id="LOCAL-00001" summary="adaptation">
       <created>1655233711679</created>
@@ -152,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655236302433</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="section_size">
+      <created>1655393805202</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655393805202</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adaptation" />
     <MESSAGE value="adaptation_hamburger" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptation_hamburger" />
+    <MESSAGE value="section_size" />
+    <option name="LAST_COMMIT_MESSAGE" value="section_size" />
   </component>
 </project>

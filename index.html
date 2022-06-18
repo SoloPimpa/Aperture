@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
@@ -17,6 +19,7 @@
         <img src="images/logo.svg" alt="logo">
     </a>
     <nav>
+
         <ul>
             <li>
                 <a href="#">Business areas</a>
@@ -35,9 +38,21 @@
             </li>
         </ul>
     </nav>
-    <button class="hamburger">
-        <i class="fa-solid fa-burger white-color fa-24x"></i>
-    </button>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menu__item" href="#">Главная</a></li>
+            <li><a class="menu__item" href="#">Проекты</a></li>
+            <li><a class="menu__item" href="#">Команда</a></li>
+            <li><a class="menu__item" href="#">Блог</a></li>
+            <li><a class="menu__item" href="#">Контакты</a></li>
+        </ul>
+    </div>
+
 </div>
 </header>
 <section class="main_banner">
@@ -69,11 +84,20 @@
         <li>Costa Rica</li>
     </ul>
 </section>
+<div class="owl-carousel">
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+    <div> Your Content </div>
+</div>
 <section class="clients">
     <div class="past_clients">
         <h3>Past clients</h3>
         <p>Trusted by your favourite companies</p>
-        <div class="d-flex">
+        <div class="d-flex owl-carousel">
     <a href="#" target="_blank">
         <img src="images/Combined-Shape.png" alt="logo">
     </a>
@@ -108,5 +132,11 @@
     </div>
 </section>
 <script src="https://kit.fontawesome.com/1d44a8dca7.js" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

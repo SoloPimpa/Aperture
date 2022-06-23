@@ -27,6 +27,7 @@
         display: inline-block;
         box-sizing: border-box;
 
+
     }
     .main_banner .container h3{
         font-size: 11px;
@@ -120,8 +121,6 @@
 }
 @media only screen and (max-width: 360px){
     .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
-        background-size: cover;
-        background-position: center;
     }
     .clients .past_clients .d-flex {
         flex-direction: column;

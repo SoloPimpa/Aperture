@@ -178,7 +178,7 @@ header nav ul li a:hover{
     display: block;
 }
 
-.clients .past_clients h3{
+.clients h3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -188,7 +188,7 @@ header nav ul li a:hover{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.clients .past_clients p{
+.clients p{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -210,10 +210,6 @@ header nav ul li a:hover{
 .clients .d-flex a{
     width: 128px;
     display: flex;
-}
-.owl-item{
-    width: 150px !important;
-    margin-right: 100px;
 }
 .nepal{
     background-image: url("../images/nepal.jpg");
@@ -277,11 +273,9 @@ header nav ul li a:hover{
     height: 32px;
     margin-right: 6px;
 }
-
-
-
-
-
+.hamburger-menu{
+    position: relative;
+}
 #menu__toggle {
     opacity: 0;
 }
@@ -299,7 +293,6 @@ header nav ul li a:hover{
 }
 #menu__toggle:checked ~ .menu__box {
     visibility: visible;
-   left: 0;
 }
 
 .menu__btn {
@@ -308,27 +301,28 @@ header nav ul li a:hover{
     position: fixed;
     top: 20px;
     right: 20px;
-
     width: 26px;
     height: 26px;
-
     cursor: pointer;
     z-index: 1;
 }
 .hamburger-menu{
     display: none;
+    z-index: 5;
 }
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
     display: block;
     position: absolute;
-
     width: 100%;
     height: 2px;
-
     background-color: #FFFFFF;
     transition-duration: .25s;
+}
+.active{
+    background-color: black;
+    border-radius: 5px;
 }
 .menu__btn > span::before {
     content: '';
@@ -338,24 +332,19 @@ header nav ul li a:hover{
     content: '';
     top: 8px;
 }
-
 .menu__box {
     display: block;
-
     visibility: hidden;
     top: 0;
-    left: 100%;
-
-    width: 50%;
-    height: 100%;
-
+    right: 0;
+    width: 30%;
+    height: 50%;
     margin: 0;
     padding: 80px 0;
-position: fixed;
+    position: fixed;
     list-style: none;
-
     background-color: #FFFFFF;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
 }
 
@@ -370,10 +359,14 @@ position: fixed;
     transition-duration: .25s;
 }
 .menu__item:hover {
-    background-color: white;
+    color: slategray;
 }
 
-
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 

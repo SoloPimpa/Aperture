@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <header>
@@ -40,16 +41,16 @@
     </nav>
     <div class="hamburger-menu">
         <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
+        <label class="menu__btn active" for="menu__toggle">
             <span></span>
         </label>
 
         <ul class="menu__box">
-            <li><a class="menu__item" href="#">Главная</a></li>
-            <li><a class="menu__item" href="#">Проекты</a></li>
-            <li><a class="menu__item" href="#">Команда</a></li>
-            <li><a class="menu__item" href="#">Блог</a></li>
-            <li><a class="menu__item" href="#">Контакты</a></li>
+            <li><a class="menu__item" href="#">Business areas</a></li>
+            <li><a class="menu__item" href="#">Featured images</a></li>
+            <li><a class="menu__item" href="#">Gear cage</a></li>
+            <li><a class="menu__item" href="#">Contact</a></li>
+            <li><a class="menu__item" href="#">Get template</a></li>
         </ul>
     </div>
 
@@ -57,9 +58,9 @@
 </header>
 <section class="main_banner">
     <div class="container">
-        <h3>Photographer & Filmmaker</h3>
-        <h1>Aperture Studios</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        <h3 data-aos="fade-right">Photographer & Filmmaker</h3>
+        <h1 data-aos="fade-left">Aperture Studios</h1>
+        <p data-aos="fade-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
     </div>
     <ul class="components">
         <li>1/2000s</li>
@@ -84,19 +85,10 @@
         <li>Costa Rica</li>
     </ul>
 </section>
-<div class="owl-carousel">
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-    <div> Your Content </div>
-</div>
 <section class="clients">
     <div class="past_clients">
-        <h3>Past clients</h3>
-        <p>Trusted by your favourite companies</p>
+        <h3 data-aos="fade-right">Past clients</h3>
+        <p data-aos="fade-left">Trusted by your favourite companies</p>
         <div class="d-flex owl-carousel">
     <a href="#" target="_blank">
         <img src="images/Combined-Shape.png" alt="logo">
@@ -113,6 +105,21 @@
     <a href="#" target="_blank">
         <img src="images/img5.png" alt="logo">
     </a>
+            <a href="#" target="_blank">
+                <img src="images/Combined-Shape.png" alt="logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/img2.png" alt="logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/img3.png" alt="logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/img4.png" alt="logo">
+            </a>
+            <a href="#" target="_blank">
+                <img src="images/img5.png" alt="logo">
+            </a>
         </div>
     </div>
 </section>
@@ -126,9 +133,9 @@
 </section>
 <section class="need_help">
     <div class="container">
-        <h3>Need help with photography or videography?</h3>
-        <p>We're here for you!</p>
-        <a href="#" target="_blank">Get in touch</a>
+        <h3 data-aos="fade-right">Need help with photography or videography?</h3>
+        <p data-aos="fade-left">We're here for you!</p>
+        <a data-aos="zoom-in" href="#" target="_blank">Get in touch</a>
     </div>
 </section>
 <script src="https://kit.fontawesome.com/1d44a8dca7.js" crossorigin="anonymous"></script>
@@ -138,5 +145,9 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

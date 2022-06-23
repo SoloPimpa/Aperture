@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="js">
+    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="hamburger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -129,7 +129,8 @@
       <workItem from="1655658645856" duration="613000" />
       <workItem from="1655663614339" duration="1734000" />
       <workItem from="1655671863250" duration="29000" />
-      <workItem from="1655991281014" duration="8770000" />
+      <workItem from="1655991281014" duration="8814000" />
+      <workItem from="1656000277060" duration="13865000" />
     </task>
     <task id="LOCAL-00001" summary="adaptation">
       <created>1655233711679</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655549553278</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hamburger">
+      <created>1656000225815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656000225815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +210,7 @@
     <MESSAGE value="adaptation_hamburger" />
     <MESSAGE value="section_size" />
     <MESSAGE value="js" />
-    <option name="LAST_COMMIT_MESSAGE" value="js" />
+    <MESSAGE value="hamburger" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamburger" />
   </component>
 </project>

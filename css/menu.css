@@ -255,7 +255,9 @@ header .nav .nav__content li:last-of-type a:hover{
     background-color: slategray;
     color: #FFFFFF;
 }
-
+body{
+    overflow-x:hidden;
+}
 .nav__list-item a:after{
     position: relative;
     content: '';

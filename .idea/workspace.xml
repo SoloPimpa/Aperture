@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="section_gear_cage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +134,7 @@
       <workItem from="1656231901872" duration="5382000" />
       <workItem from="1656259323347" duration="12560000" />
       <workItem from="1656272487969" duration="233000" />
-      <workItem from="1656276733806" duration="1906000" />
+      <workItem from="1656276733806" duration="2205000" />
     </task>
     <task id="LOCAL-00001" summary="adaptation">
       <created>1655233711679</created>
@@ -251,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656277125140</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="section_gear_cage">
+      <created>1656278665426</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656278665426</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

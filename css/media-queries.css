@@ -11,7 +11,7 @@
         bottom: 100px;
     }
     .clients .d-flex img:first-of-type{
-        margin-left: 30px;
+        margin-left: 50px;
     }
 }
 @media only screen and (max-width: 1024px) {
@@ -53,7 +53,9 @@
     }
 }
 @media only screen and (max-width: 860px){
-
+    .clients .d-flex img:first-of-type{
+        margin-left: 75px;
+    }
     .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
         background-size: cover;
         background-position: center;
@@ -69,6 +71,9 @@
         margin-right: 5px;
     }
 @media only screen and (max-width: 767px) {
+    .clients .d-flex img:first-of-type{
+        margin-left: 60px;
+    }
     .content{
         max-width: 300px;
         margin-bottom: 20px;
@@ -151,6 +156,9 @@
 }
 
 @media only screen and (max-width: 420px) {
+    .clients .d-flex img:first-of-type{
+        margin-left: 40px;
+    }
     .content_text h4{
        font-size: 12px;
     }
@@ -216,6 +224,9 @@
     }
 }
 @media only screen and (max-width: 360px){
+    .clients .d-flex img:first-of-type{
+        margin-left: 25px;
+    }
     .content_text {
         max-width: 200px;
         right: 20px;

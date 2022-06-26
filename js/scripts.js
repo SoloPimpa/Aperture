@@ -15,7 +15,7 @@ $(document).ready(function(){
             360:{
                 items:2
             },
-            420:{
+            580:{
                 items:3
             },
             767: {

@@ -15,6 +15,9 @@
     .gear_cage{
         flex-direction: column;
     }
+    .lens{
+        margin-bottom: 20px;
+    }
     .content_text{
         right: 40px;
         bottom: 100px;

@@ -257,6 +257,8 @@ header .nav .nav__content li:last-of-type a:hover{
 }
 body{
     overflow-x:hidden;
+    width: 100%;
+    max-width: 100%;
 }
 .nav__list-item a:after{
     position: relative;

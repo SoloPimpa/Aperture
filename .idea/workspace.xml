@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="header_menu">
+    <list default="true" id="ad0f0dad-cff0-4c03-a177-415a9de523be" name="Changes" comment="scroll_x">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media-queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media-queries.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +129,7 @@
       <workItem from="1655991281014" duration="8814000" />
       <workItem from="1656000277060" duration="14080000" />
       <workItem from="1656014909334" duration="659000" />
-      <workItem from="1656018543381" duration="2872000" />
+      <workItem from="1656018543381" duration="4249000" />
     </task>
     <task id="LOCAL-00001" summary="adaptation">
       <created>1655233711679</created>
@@ -196,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656014642636</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="scroll_x">
+      <created>1656150005340</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656150005340</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +225,7 @@
     <MESSAGE value="js" />
     <MESSAGE value="hamburger" />
     <MESSAGE value="header_menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="header_menu" />
+    <MESSAGE value="scroll_x" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll_x" />
   </component>
 </project>

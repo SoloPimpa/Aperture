@@ -27,7 +27,6 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .white-color{
     color: white;
@@ -46,7 +45,6 @@ header .container{
     align-items: end;
     padding-bottom: 71px;
     position: relative;
-
 }
 .main_banner .container{
     max-width: 580px;

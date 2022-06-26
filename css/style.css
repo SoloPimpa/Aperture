@@ -239,7 +239,141 @@ header .container{
     justify-content: space-between;
     align-items: center;
 }
+.specialism{
+    padding-top:113px;
+    padding-bottom: 100px;
+    background-color: black;
+    justify-content: center;
+}
+.what_we_do{
+    max-width: 600px;
+    margin: auto;
+}
+.what_we_do h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.content{
+    max-width: 576px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 16px;
+}
+.w100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1168px;
+    margin: auto;
+}
+.specialism .content h6{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.specialism .content p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 15px;
+}
+.text{
+    position: absolute;
+    bottom: 8%;
+    left: 30px;
+    right: 30px;
+}
+.specialism .content a{
+    max-width: 143px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
 
+    transition: 0.3s;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.specialism .content a:hover{
+    transform: scale(1.1);
+}
+.specialism .content a:before{
+    content: "";
+    background-image: url("../images/Frame1.svg");
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+.content_text{
+    max-width: 298px;
+    position: absolute;
+    right: 62px;
+    bottom: 260px;
+    list-style: none;
+}
+.content_text h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.content_text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.costa_rica .content_text{
+    right: 87px;
+}
+.nepal .content_text{
+    right: 119px;
+    bottom: 250px;
+}
 
 
 

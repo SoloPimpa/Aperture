@@ -1,10 +1,18 @@
-@media only screen and (max-width: 1200px){
-    header{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
 @media only screen and (max-width: 1024px) {
+    .content_text{
+        right: 40px;
+        bottom: 100px;
+    }
+    .content_text:last-of-type{
+        right: 40px;
+        bottom: 100px;
+    }
+    .content{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
     .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
         background-size: cover;
         background-position: center;
@@ -23,6 +31,7 @@
     }
 }
 @media only screen and (max-width: 860px){
+
     .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
         background-size: cover;
         background-position: center;
@@ -38,6 +47,13 @@
         margin-right: 5px;
     }
 @media only screen and (max-width: 767px) {
+    .content{
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow-x: hidden;
+    }
    .nav{
        position: fixed;
    }
@@ -113,6 +129,18 @@
 }
 
 @media only screen and (max-width: 420px) {
+    .content_text h4{
+       font-size: 12px;
+    }
+    .content_text p{
+        font-size: 12px;
+    }
+    .what_we_do h3{
+        font-size: 30px;
+    }
+    .what_we_do h4{
+        font-size: 20px;
+    }
     .main_banner .container h3{
         font-size: 8px;
         line-height: 13px;
@@ -166,6 +194,13 @@
     }
 }
 @media only screen and (max-width: 360px){
+    .content_text {
+        max-width: 200px;
+        right: 20px;
+    }
+    .content_text:last-of-type{
+        right: 20px;
+    }
     .main_banner,.japan,.costa_rica,.nepal, .clients, .need_help {
         background-size: cover;
     }

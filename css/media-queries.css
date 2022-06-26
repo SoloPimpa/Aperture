@@ -10,6 +10,9 @@
         right: 40px;
         bottom: 100px;
     }
+    .clients .d-flex img:first-of-type{
+        margin-left: 30px;
+    }
 }
 @media only screen and (max-width: 1024px) {
     .gear_cage{
@@ -245,6 +248,9 @@
     }
 }
 @media only screen and (max-width: 320px) {
+    .clients .d-flex img:first-of-type{
+        margin-left: 100px;
+    }
     .components li {
         font-size: 10px;
     }

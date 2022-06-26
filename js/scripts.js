@@ -10,7 +10,10 @@ $(document).ready(function(){
 
         responsive:{
             0:{
-                items:1,
+                items:1
+            },
+            360:{
+                items:2
             },
             420:{
                 items:3
